@@ -77,6 +77,13 @@ Make sure to activate the virtual environment.
 export PEER=True && python3 -m backend.app
 ```
 
+**Seed the Backend with Data**
+
+Make sure to activate the virtual environment.
+```
+export SEED_DATA=True && python3 -m backend.app
+```
+
 ### Frontend
 
 **Install all Packages**
@@ -91,11 +98,4 @@ npm install
 In the frontend directory:
 ```
 npm run start
-```
-
-**Seed the Backend with Data**
-
-Make sure to activate the virtual environment.
-```
-export SEED_DATA=True && python3 -m backend.app
 ```
