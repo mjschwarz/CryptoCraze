@@ -26,6 +26,8 @@ This gif demonstrates some of the capabilities of this application.
 
 `Note: Using Python 3.10.0 and MacOS`
 
+### Backend
+
 **Create the Virtual Environment**
 - Open a terminal
 - Enter into your project directory (e.g. cd Projects)
@@ -73,6 +75,15 @@ python3 -m backend.app
 Make sure to activate the virtual environment.
 ```
 export PEER=True && python3 -m backend.app
+```
+
+### Frontend
+
+**Install all Packages**
+
+In the frontend directory:
+```
+npm install
 ```
 
 **Run the Frontend**
