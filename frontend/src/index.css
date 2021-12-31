@@ -1,0 +1,56 @@
+body {
+    background-color: #436b95;
+    color: #fffdd0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.1);
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Quicksand';
+    padding-top: 5%;
+    word-wrap: break-word;
+  }
+  
+  .logo {
+    width: 250px;
+    height: 250px;
+  }
+  
+  .App, .Blockchain, .ConductTransaction, .TransactionPool {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .WalletInfo {
+    width: 500px;
+  }
+  
+  .Block {
+    border: 1px solid #fffdd0;
+    padding: 10%;
+    margin: 2%;
+  }
+  
+  .Transaction {
+    padding: 5%;
+  }
+  
+  .Blockchain, .ConductTransaction, .TransactionPool {
+    margin: 10%;
+    margin-top: 5%;
+  }
+  
+  .Blockchain, .TransactionPool {
+    margin-top: 0;
+  }
+  
+  a, a:hover {
+    color: #d9534f;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  
+  input, button {
+    color: black;
+    margin-bottom: 15px;
+  }
+  
